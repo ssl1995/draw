@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-06T13:20:53.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="si4h4gXImcpEbnVZ-bl7" version="24.0.4" type="device" pages="6">
+<mxfile host="Electron" modified="2024-04-12T13:33:40.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="HdoS8tuzOwltArmLxRuj" version="24.0.4" type="device" pages="6">
   <diagram name="图1.1 单模态信息检索" id="lqUr2v882YNDlxCJ2LP0">
-    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -779,41 +779,34 @@
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-4" value="多模态特征提取" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="60" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0" parent="1" source="2ha6SFs4bMfEcRmdG7Rd-6" target="2ha6SFs4bMfEcRmdG7Rd-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0" parent="1" source="2ha6SFs4bMfEcRmdG7Rd-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-6" value="模态语义关系学习" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="170" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0" parent="1" source="2ha6SFs4bMfEcRmdG7Rd-8" target="2ha6SFs4bMfEcRmdG7Rd-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="40" y="270" width="160" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-9" value="两阶段预训练" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="310" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-10" value="基于CLIP模型的MIRBC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="40" y="270" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-11" value="&lt;span style=&quot;background-color: initial;&quot;&gt;模型集成&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="360" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="40" y="490" width="160" height="190" as="geometry" />
+          <mxGeometry x="40" y="280" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-13" value="基于DALL-E2模型的EPSEN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="40" y="490" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ryHZ__gQIDza9UUophCn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ha6SFs4bMfEcRmdG7Rd-14" target="2ha6SFs4bMfEcRmdG7Rd-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-14" value="优化的ResNet50&lt;div&gt;（特征金字塔）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="530" width="100" height="40" as="geometry" />
+          <mxGeometry x="70" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ryHZ__gQIDza9UUophCn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ha6SFs4bMfEcRmdG7Rd-15" target="2ha6SFs4bMfEcRmdG7Rd-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-15" value="深度语义嵌入" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="580" width="100" height="40" as="geometry" />
+          <mxGeometry x="70" y="480" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-16" value="特征融合" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="630" width="100" height="40" as="geometry" />
+          <mxGeometry x="70" y="620" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0" parent="1" source="2ha6SFs4bMfEcRmdG7Rd-18" target="2ha6SFs4bMfEcRmdG7Rd-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -857,7 +850,7 @@
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-30" value="模型训练" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="370" y="505" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-31" value="模型嵌入" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="2ha6SFs4bMfEcRmdG7Rd-31" value="数据展示" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="370" y="555" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ha6SFs4bMfEcRmdG7Rd-32" value="系统测试" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
