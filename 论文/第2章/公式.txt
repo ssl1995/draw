@@ -1,0 +1,23 @@
+\boldsymbol{v} \in \mathbb{R}^{D_{I}}
+
+\boldsymbol{W_1}
+
+
+draw公式：
+
+$$\boldsymbol{u} \in \mathbb{R}^{D_{T}}$$
+$${x_{1}^{I}}$$
+$${x_{2}^{I}}$$
+$${m^{i}}$$
+
+
+
+$$\boldsymbol{W} \in \mathbb{R}^{D_{z}×(D_{I}× D_{T})}$$
+
+\begin{gathered}
+\left\{x_1^I+y_1^I, x_2^I+y_2^I, \cdots, x_n^I+y_n^I\right\} 
+\left\{x_1^T+y_1^T, x_2^T+y_2^T, \cdots, x_m^T+y_m^T\right\}
+\end{gathered}
+
+
+$${D_{I}}$$
