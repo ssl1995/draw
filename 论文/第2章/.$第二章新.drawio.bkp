@@ -1,5 +1,5 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
-  <diagram name="第 1 页" id="m65VkX0zMemgbuHCTfAd">
+  <diagram name="新2.1 图文信息差异" id="m65VkX0zMemgbuHCTfAd">
     <mxGraphModel dx="3607" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -13,17 +13,23 @@
         <mxCell id="VdF2aH2GhWvNov9j5iZk-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="990" y="1280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VdF2aH2GhWvNov9j5iZk-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="VdF2aH2GhWvNov9j5iZk-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1020" y="225.99" as="sourcePoint" />
-            <mxPoint x="-890" y="225.99" as="targetPoint" />
+            <mxPoint x="-1020" y="240" as="sourcePoint" />
+            <mxPoint x="-890" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VdF2aH2GhWvNov9j5iZk-8" value="花蕊是黄色，花瓣是白色的一朵花" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1455" y="440" width="270" height="100" as="geometry" />
+        <mxCell id="VdF2aH2GhWvNov9j5iZk-8" value="花蕊是黄色，花瓣是白色的一朵花" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1455" y="430" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="VdF2aH2GhWvNov9j5iZk-9" value="[12 2033 513 3512 23 188 323 32 513 1200 23 135 324 7 799 428 519]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-795.22" y="430" width="450" height="100" as="geometry" />
+        <mxCell id="VdF2aH2GhWvNov9j5iZk-9" value="[12 2033 513 3512 23 188 323 32 513 1200 23 135 324 7 799 428 519]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-790" y="430" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VdF2aH2GhWvNov9j5iZk-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1020" y="480" as="sourcePoint" />
+            <mxPoint x="-890" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
